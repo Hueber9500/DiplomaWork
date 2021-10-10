@@ -11,7 +11,6 @@ namespace TimetableGeneratorTDD
     {
         internal static IEnumerable<Teacher> LoadTeachersAndModulesFromYAML(string yamlPath)
         {
-            throw new NotImplementedException();
         }
 
         internal static IEnumerable<Teacher> LoadTeachersFromFile(string filePath)
