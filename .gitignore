@@ -1,0 +1,32 @@
+# Exclude directories made during build
+[Bb]in/
+[Oo]bj/
+
+# Exclude vs directory
+.vs/
+
+# User-specific files
+*.user
+
+# NuGet Packages
+*.nupkg
+
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+/MicroAccount.AgroKarti.Web/Content/ts
+/MicroAccount.AgroKarti.Web/Content/typescript/Content/ts
+/MicroAccount.AgroKarti.Web/Content/FrontEnd/package-lock.json
+/node_modules
+/MicroAccount.AgroKarti.Web/Content/FrontEnd/build
+/MicroAccount.AgroKarti.Web/Content/FrontEnd/node_modules
