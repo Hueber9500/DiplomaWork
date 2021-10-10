@@ -1,0 +1,10 @@
+﻿teachers:
+  - name: доц. д-р инж. Виолета Божикова
+    modules:
+      - python
+      - perl
+      - pascal
+  - name: доц. д-р инж. Недялко Николов
+    modules:
+      - c++
+      - c
