@@ -23,10 +23,3 @@
 # NuGet v3's project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets
-
-/MicroAccount.AgroKarti.Web/Content/ts
-/MicroAccount.AgroKarti.Web/Content/typescript/Content/ts
-/MicroAccount.AgroKarti.Web/Content/FrontEnd/package-lock.json
-/node_modules
-/MicroAccount.AgroKarti.Web/Content/FrontEnd/build
-/MicroAccount.AgroKarti.Web/Content/FrontEnd/node_modules
